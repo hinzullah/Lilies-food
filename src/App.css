@@ -1,38 +1,529 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  overflow-x: hidden;
+  
+}
+.landpage{
+  height: 125rem;
+  background-color: #00302E;
+  overflow-x: hidden;
+}
+header{
+  display: grid;
+  margin: 10px;
+}
+header .logo{
+  position: absolute;
+  left: 6.81%;
+  top: 2.36%;
+  height: 67px;
+width: 58px;
+left: 98px;
+top: 59px;
+border-radius: 0px;
+
+}
+header h1{
+  position: absolute;
+width: 82px;
+height: 46px;
+left: 168px;
+top: 63px;
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 36px;
+color: #FFFFFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  text-decoration: none;
+  text-decoration-style: none;
+ 
+
+}
+.navbar{
+  color: #FFFFFF;
+  list-style-type: none;
+  text-decoration-style: none;
+  font-size: 21px;
+line-height: 33px;
+  
+}
+.home{
+  position: absolute;
+width: 63px;
+height: 33px;
+left: 990px;
+top: 80px;
+line-height: 33px;
+/* identical to box height, or 157% */
+color: #FBDDBB;
+}
+.login{
+  position: absolute;
+width: 57px;
+height: 33px;
+left: 1098px;
+top: 80px;
+/* identical to box height, or 157% */
+color: rgba(255, 255, 255, 0.87);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sign-up{
+  position: absolute;
+width: 142px;
+height: 53px;
+left: 1200px;
+top: 73px;
+
+background: #E2B887;
+border-radius: 7px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button1{
+width: 142px;
+height: 53px;
+background: #E2B887;
+border-radius: 7px;
+}
+
+.content h2{
+  position: absolute;
+width: 650px;
+height: 167px;
+left: 98px;
+top: 261px;
+font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+/* or 120% */
+color: #FFFFFF;
+}
+.content h2 span{
+  color:#E2B887; ;
+}
+.content p{
+  position: absolute;
+width: 609px;
+height: 77px;
+left: 98px;
+top: 449px;
+font-weight: 400;
+font-size: 18px;
+line-height: 33px;
+/* or 183% */
+color: rgba(255, 255, 255, 0.74);
+}
+.content img{
+  position: absolute;
+width: 400px;
+height: 400px;
+left: 904px;
+top: 187px;
+border-radius: 400px;
+}
+.google{
+  position: absolute;
+  width: 135px;
+  height: 40px;
+  left: 98px;
+  top: 547px;
+}
+.apple{
+  position: absolute;
+  width: 135px;
+  height: 40px;
+  left: 250px;
+  top: 547px;
+}
+.center h4{
+  position: absolute;
+width: 463px;
+height: 33px;
+left: 489px;
+top: 667px;
+font-weight: 400;
+font-size: 36px;
+line-height: 33px;
+/* identical to box height, or 92% */
+color: rgba(255, 255, 255, 0.87);
+
+}
+.center p{
+  position: absolute;
+width: 609px;
+height: 77px;
+left: 423px;
+top: 720px;
+font-weight: 200;
+font-size: 18px;
+line-height: 33px;
+/* or 183% */
+text-align: center;
+color: rgba(255, 255, 255, 0.83);
+}
+
+.image-1 .spag{
+  position: absolute;
+width: 250px;
+height: 250px;
+left: 131px;
+top: 950px;
+border-radius: 400px;
+}
+.image-1 h5{
+  position: absolute;
+width: 177px;
+height: 33px;
+left: 186px;
+top: 1220px;
+font-weight: 300;
+font-size: 27px;
+line-height: 33px;
+/* identical to box height, or 122% */
+text-align: center;
+color: #FBDDBB;
+}
+.image-1 p{
+  position: absolute;
+width: 288px;
+height: 66px;
+left: 132px;
+top: 1290px;
+font-weight: 200;
+font-size: 18px;
+line-height: 33px;
+/* or 183% */
+text-align: center;
+color: rgba(255, 255, 255, 0.83);
+}
+.image-2 .samo{
+  position: absolute;
+width: 250px;
+height: 250px;
+left: 612px;
+top: 950px;
+border-radius: 400px;
+
+}
+.image-2 h5{
+  position: absolute;
+width: 144px;
+height: 33px;
+left: 663px;
+top: 1220px;
+font-weight: 300;
+font-size: 27px;
+line-height: 33px;
+/* identical to box height, or 122% */
+text-align: center;
+color: #FBDDBB;
+}
+.image-2 p{
+  position: absolute;
+width: 288px;
+height: 66px;
+left: 593px;
+top: 1290px;
+font-weight: 200;
+font-size: 18px;
+line-height: 33px;
+/* or 183% */
+text-align: center;
+color: rgba(255, 255, 255, 0.83);
+}
+.image-3 .burg{
+  position: absolute;
+width: 250px;
+height: 250px;
+left: 1094px;
+top: 950px;
+border-radius: 400px;
+}
+.image-3 h5{
+  position: absolute;
+width: 168px;
+height: 33px;
+left: 1133px;
+top: 1220px;
+font-weight: 300;
+font-size: 27px;
+line-height: 33px;
+/* identical to box height, or 122% */
+text-align: center;
+color: #FBDDBB;
+}
+.image-3 p{
+  position: absolute;
+width: 288px;
+height: 66px;
+left: 1075px;
+top: 1290px;
+font-weight: 200;
+font-size: 18px;
+line-height: 33px;
+/* or 183% */
+text-align: center;
+color: rgba(255, 255, 255, 0.83);
+}
+.notice h4{
+  position: absolute;
+width: 549px;
+height: 33px;
+left: 128px;
+top: 1575px;
+font-weight: 400;
+font-size: 36px;
+line-height: 33px;
+/* identical to box height, or 92% */
+color: #FBDDBB;
+}
+.notice p{ 
+position: absolute;
+width: 531px;
+height: 66px;
+left: 126px;
+top: 1640px;
+font-weight: 200;
+font-size: 18px;
+line-height: 33px;
+/* or 183% */
+color: rgba(255, 255, 255, 0.95);
+}
+.notice input{
+  position: absolute;
+width: 299px;
+height: 51px;
+left: 841px;
+top: 1600px;
+background: #F7F7F7;
+border: 1px solid #B3B3B3;
+border-radius: 5px;
+}
+.notice button{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 40px;
+gap: 10px;
+position: absolute;
+width: 182px;
+height: 51px;
+left: 1148px;
+top: 1600px;
+background: #FBDDBB;
+border-radius: 5px;
+}
+.footer {
+  position: absolute;
+width: 1440px;
+height: 300px;
+left: 0px;
+color: #ffffff;
+top: 1800px;
+/* Default / Black */
+background: #0B0D17;
+}
+.f1 h6{
+  position: absolute;
+width: 255px;
+height: 28px;
+left: 180px;
+top: 50px;
+/* Subtitle / Subtitle 2 */
+font-family: 'Inter';
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'salt' on, 'liga' off;
+/* Text / Gray 100 */
+color: #F4F5F7;
 }
 
-.App-link {
-  color: #61dafb;
+.f1 ul {
+  position: absolute;
+  width: 255px;
+  height: 28px;
+  left: 180px;
+  top: 100px;
+  font-weight: 200;
+  list-style-type: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.f2 h6{
+  position: absolute;
+width: 255px;
+height: 28px;
+left: 440px;
+top: 50px;
+/* Subtitle / Subtitle 2 */
+font-family: 'Inter';
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'salt' on, 'liga' off;
+/* Text / Gray 100 */
+color: #F4F5F7;
 }
+
+.f2 ul {
+  position: absolute;
+  width: 255px;
+  height: 28px;
+  left: 440px;
+  top: 100px;
+  font-weight: 200;
+  list-style-type: none;
+}
+
+.f3 h6{
+  position: absolute;
+width: 255px;
+height: 28px;
+left: 700px;
+top: 50px;
+/* Subtitle / Subtitle 2 */
+font-family: 'Inter';
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'salt' on, 'liga' off;
+/* Text / Gray 100 */
+color: #F4F5F7;
+}
+
+.f3 ul {
+  position: absolute;
+  width: 255px;
+  height: 28px;
+  left: 700px;
+  top: 100px;
+  font-weight: 200;
+  list-style-type: none;
+}
+
+.f4 h6{
+  position: absolute;
+width: 255px;
+height: 28px;
+right: 180px;
+top: 50px;
+/* Subtitle / Subtitle 2 */
+font-family: 'Inter';
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+font-feature-settings: 'salt' on, 'liga' off;
+/* Text / Gray 100 */
+color: #F4F5F7;
+}
+
+.f4 ul {
+  position: absolute;
+  width: 255px;
+  height: 28px;
+  right: 180px;
+  top: 100px;
+  font-weight: 200;
+  list-style-type: none;
+}
+
+/*Login page*/
+.login-page{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.login-page img{
+  position: absolute;
+  width: 764px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+}
+.login-page h2{
+  position: absolute;
+width: 214px;
+height: 33px;
+left: 982px;
+top: 278px;
+font-weight: 600;
+font-size: 27px;
+line-height: 33px;
+/* identical to box height, or 122% */
+color: #00302E;
+}
+.login-page input {
+  position: absolute;
+width: 488px;
+height: 71px;
+left: 845px;
+top: 372px;
+background: rgba(255, 255, 255, 0.83);
+border: 1px solid rgba(251, 221, 187, 0.51);
+border-radius: 5px;
+}
+.login-page .password{
+  position: absolute;
+width: 488px;
+height: 71px;
+left: 845px;
+top: 491px;
+background: rgba(255, 255, 255, 0.83);
+border: 1px solid rgba(251, 221, 187, 0.51);
+border-radius: 5px;
+}
+.login-page Button{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 40px;
+gap: 10px;
+color: #FBDDBB;
+position: absolute;
+width: 488px;
+height: 60px;
+left: 845px;
+top: 610px;
+background: #00302E;
+border-radius: 5px;
+}
+.login-page p {
+  position: absolute;
+width: 133px;
+height: 33px;
+left: 846px;
+top: 704px;
+font-weight: 200;
+font-size: 14px;
+line-height: 33px;
+/* identical to box height, or 236% */
+color: rgba(0, 48, 46, 0.91);
+}
+.login-page span{
+  position: absolute;
+width: 125px;
+height: 33px;
+left: 1208px;
+top: 704px;
+font-weight: 200;
+font-size: 14px;
+line-height: 33px;
+/* identical to box height, or 236% */
+color: rgba(0, 48, 46, 0.91);
+}
+
