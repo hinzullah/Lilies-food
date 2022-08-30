@@ -16,7 +16,7 @@ const Landpage = () => {
             <ul className='navbar'>
                 <Link to=''><li className='home'>Home</li></Link>
                 <Link to='/login'><li className='login'>Login</li></Link>
-                <Link to='/sign-up'><li className='sign-up'><Button text={'Sign Up'}/></li></Link>
+                <Link to='/register'><li className='sign-up'><Button text={'Sign Up'}/></li></Link>
             </ul>
         </header>
         

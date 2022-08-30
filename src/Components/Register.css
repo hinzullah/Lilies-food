@@ -1,0 +1,101 @@
+/* Register page*/
+.signup img{
+    position: absolute;
+    width: 50%;
+    left: 0px;
+    height: 120vh;
+    top: 0px;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .text h2{
+    position: absolute;
+      width: 21%;
+      height: 33px;
+      right: 16%;
+      top: 12%;
+      font-weight: 400;
+      font-size: 27px;
+      line-height: 33px;
+      color: #00302E;
+  }
+
+  .text .username, .text .signup-email, .text .password{
+    position: absolute;
+    width: 40%;
+    height: 71px;
+    right: 5%;
+    top: 30%;
+    background: rgba(255, 255, 255, 0.83);
+    border: 1px solid rgba(205, 113, 9, 0.51);
+    border-radius: 5px;
+  }
+  
+  .text .username{
+    right: 5%;
+    top: 22%;
+  }
+  .text .signup-email{
+    top: 42%;
+  }
+  .text .password{
+    top : 62%
+  }
+  .text Button{
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    color: #FBDDBB;
+    position: absolute;
+    width: 40%;
+    height: 60px;
+    right: 5%;
+    top: 83%;
+    background: #00302E;
+    border-radius: 5px;
+  }
+ 
+  .text p{
+    position: absolute;
+    top: 95%;
+    right: 20%;
+  }
+  @media (max-width: 768px) {
+    .signup img{
+        width: 100%;
+      }
+
+      .text h2{
+        position: absolute;
+          width: 41%;
+          right: 25%;
+          top: 10%;
+      }
+      .text .username{
+        top: 22%;
+        width: 80%;
+        right: 10%;
+        height: 50px;
+      }
+      .text .signup-email{
+        width: 80%;
+        right: 10%;
+        height: 50px;
+        height: 50px;
+      }
+      .text .password{
+        top : 62%;
+        width:80%;
+        right: 10%;
+        height: 50px;
+      }
+
+      .text Button{
+        top: 83%;
+        right: 10%;
+        width: 80%;
+        height: 50px;
+      }
+  }
+  
