@@ -4,6 +4,7 @@ import Dashboard from './Pages/Dashboard';
 import Landpage from './Pages/Landpage'
 import Login from './Pages/Login'
 import Register from './Pages/Register';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (

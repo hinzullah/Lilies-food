@@ -6,12 +6,8 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{
-  overflow-x: hidden;
-  
-}
 .landpage{
-  height: 125em;
+  height: 300vh;
   background-color: #00302E;
   overflow-x: hidden;
 }
@@ -307,16 +303,19 @@ background: #0B0D17;
   font-weight: 200;
   list-style-type: none;
 }
+
+
 @media (max-width:768px) {
-  body{
+  div .landpage{
     background-color: #00302E;
-    overflow-x: hidden;
+    height: 380vh;
+    width: 120vw;
+    overflow-x: auto;
   }
   header .logo{
     width: 50px;
     left: 0%;
     top: 8%;
-    overflow-x: hidden;
   }
   header h1{
     width: 50px;
@@ -330,27 +329,28 @@ background: #0B0D17;
   .navbar li{
     font-size: 18px;
     line-height: 23px;
+    
   }
   .home, .login{
-    right: 0%;
+    right: 0;
     top: 7%;
-    width: 30px;
+    
   }
   .login{
-  width: 30px;
+  
   top: 12%;
-  right: 0%;
+  right: 0;
   }
 
   .sign-up{
     right: 0;
     top: 16%;
-    width: 30px;
     height: 33px;
   }
   .sign-up Button{
     width: 60px;
-    height: 33px;
+    height: 30px;
+    border: none;
     background: #E2B887;
     }
   
@@ -366,39 +366,39 @@ background: #0B0D17;
   color:#E2B887; ;
 }
 .content p{
-  width: 28rem;
+  width: 25rem;
   top: 50%;
   font-weight: 100;
   font-size: 18px;
 }
 .google, .apple{
-  width: 105px;
+  width: 100px;
   height: 40px;
-  left: 24%;
+  left: 20%;
   top: 65%;
 }
 .apple{
-  left: 60%;
+  left: 56%;
 }
 .content img{
-  width: 100%;
-  height: 45%;
-  right: 0%;
+  width: 300px;
+  height: 300px;
   top: 76%; 
+  left: 10%;
 }
   .center h4, .center p{
     position: absolute;
-    width: 100%;
-    height: 13px;
+    width: 25rem;
+    height: 16px;
     left: 0%;
-    top: 124%;
+    top: 120%;
     font-weight: 200;
     font-size: 30px;
     text-align: center;
     color: rgba(255, 255, 255, 0.83);
   }
   .center p{
-    width: 100%;
+    width: 25rem;
     height: 27px;
     left: 0%;
     top: 130%;
@@ -406,13 +406,12 @@ background: #0B0D17;
     font-size: 18px;
   }
   .image-1 .spag, .image-2 .samo, .image-3 .burg{
-    left: 0%;
+    left: 10%;
     top: 145%;
-    width: 100%;
-    height: 45%;
+    width: 300px;
+    height: 300px;
   }
   .image-2 .samo{
-    
     top: 205%;
   }
   .image-3 .burg{ 
@@ -422,38 +421,38 @@ background: #0B0D17;
   .image-1 h5, .image-2 h5, .image-3 h5{
     width: 177px;
     height: 33px;
-    left: 28%;
-    top: 190%;
+    left: 25%;
+    top: 185%;
     font-weight: 200;
     }
     .image-2 h5{
       left: 24%;
-      top: 252%;
+      top: 247%;
     }
     .image-3 h5{
       left: 24%;
-      top: 310%;
+      top: 305%;
       width: 200px;
     }
 
     .image-1 p, .image-2 p, .image-3 p{
-      width: 100%;
+      width: 23rem;
       left: 0%;
-      top: 195%;
+      top: 192%;
       font-weight: 100;
     }
   .image-2 p{
     position: absolute; 
     left: 0%;
-    top: 256%;
+    top: 254%;
   }
   
   .image-3 p{
     left: 0%;
-    top: 314%;
+    top: 310%;
   }
   .notice h4, .notice p{
-    width: 100%;
+    width: 25rem;
     top: 325%;
     font-weight: 100;
     /* identical to box height, or 92% */
@@ -469,10 +468,10 @@ background: #0B0D17;
   }
 
   .notice input, .notice button{
-    width: 100%;
+    width: 22rem;
     height: 38px;
     top: 350%;
-    left: 0%;
+    left: 5%;
   }
   .notice button{
     display: flex;
@@ -486,7 +485,7 @@ background: #0B0D17;
   }
 
   .footer {
-    width: 100%;
+    width: 119vw;
     height: 50%;
     top: 365%;
   }
@@ -528,8 +527,6 @@ background: #0B0D17;
     height: 30px;
     left: 50%;
     top: 45%;
-  
-  
   }
   
 }

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+.dashboard{
+    font-family: 'poppins';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+   
+.header img{
+    height: 67px;
+    width: 57.5px;
+    
+}
+.profile{
+    float:right;
+    margin: 1.5rem 4.5rem 0 0;
+    width: 5rem;
+    height: 4rem;
+    border: 2px solid #00302E;
+    border-radius: 50px;
+}
+.header h1{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-left: 3rem;
+    margin-top: 1.2rem;
+}
+.header h2{
+    margin-left: 20rem;
+    margin-top: -3rem;
+    font-weight: 200;
+}
+.header p{
+    margin-left: 20rem;
+    margin-top: 0;
+}
+.side-nav{
+    display: inline-block;
+    margin: 1.5rem;
+    height: 80vh;
+    width: 20%;
+    background-color: rgb(253, 247, 240);
+    
+}
+.side-nav ul{
+    list-style: none;
+    justify-content: space-between;
+    width: 10rem;
+}
+.side-nav ul li{
+    margin-top: 4rem;
+    margin-left: 1rem;
+    line-height: 1rem;
+    text-align: center;
+}
+.side-nav ul li:hover {
+    background-color: #fbfbfb;
+    width: 10rem;
+    border-radius: 10px;
+    padding-top:12px;
+    height: 3rem;
+    text-align: center;
+    transition: 0.6s;
+}
+.food-menu{
+    grid-gap: 30px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2rem;
+    float: right;
+    margin-top: -500px;  
+}
+
+.food-menu img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px 50px;
+    
+}
+.food-menu h2 {
+    width: 12rem;
+    height: 33px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+    padding-left: 4rem;
+    display: flex;
+    grid-gap: 20px;
+}
+.food-menu p{
+    width: 13rem;
+    display: flex;
+    height: 32px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    padding-left: 4rem;
+    color: rgba(0, 0, 0, 0.69);
+    grid-gap: 20px;
+}
+
+
+
+@media (max-width:768px) {
+    body{
+        background-color: #fbfbfb;
+    }
+     .profile{
+        margin-right: 1rem;
+        margin-top:5rem;
+    }
+    .header h2{
+        margin-left: 3rem;
+        margin-top: 10px;
+        
+    }
+ 
+    .header p{
+        margin-left: 3rem;
+        margin-top: 10px;
+        
+    }
+
+    .side-nav {
+        display:none;
+        cursor: pointer;
+      }
+      .food-menu{
+        grid-gap: 30px;
+        display: flex;
+        margin: 20px; 
+    }
+    
+.food-menu img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin:auto;  
+}
+.food-menu h2 {
+    width: 12rem;
+    padding-left: 3rem;
+    display: flex;
+    grid-gap: 30px;
+    margin-right: 90px;
+}
+.food-menu p{
+    width: 13rem;
+    padding-left: 3rem;
+}
+
+     
+    
+    
+    
+    #page-wrap {
+        text-align: center;
+      
+        /* Prevent sidebar from showing a scrollbar on page */
+        overflow: auto;
+      }
+      
+      /* Individual item */
+      .bm-item {
+        display: inline-block;
+      
+        /* Our sidebar item styling */
+        text-decoration: none;
+        margin-bottom: 10px;
+        color: #d1d1d1;
+        transition: color 0.2s;
+      }
+      
+      /* Change color on hover */
+      .bm-item:hover {
+        color: white;
+      }
+      
+      /* The rest copied directly from react-burger-menu docs */
+      
+      /* Position and sizing of burger button */
+      .bm-burger-button {
+        position: fixed;
+        width: 36px;
+        height: 30px;
+        right: 36px;
+        top: 36px;
+      }
+      
+      /* Color/shape of burger icon bars */
+      .bm-burger-bars {
+        background: #373a47;
+      }
+      
+      /* Position and sizing of clickable cross button */
+      .bm-cross-button {
+        height: 24px;
+        width: 24px;
+      }
+      
+      /* Color/shape of close button cross */
+      .bm-cross {
+        background: #bdc3c7;
+      }
+      
+      /* General sidebar styles */
+      .bm-menu {
+        background: #454737;
+        padding: 2.5em 1.5em 0;
+        font-size: 1.15em;
+      }
+      
+      /* Morph shape necessary with bubble or elastic */
+      .bm-morph-shape {
+        fill: #373a47;
+      }
+      
+      /* Wrapper for item list */
+      .bm-item-list {
+        color: #b8b7ad;
+      }
+      
+      /* Styling of overlay */
+      .bm-overlay {
+        background: rgba(0, 0, 0, 0.3);
+      }
+      
+
+}
